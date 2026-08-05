@@ -13,7 +13,8 @@ The Python prototype in this repository has successfully validated the core hypo
 
 * **Adaptive Routing:** The Cognitive Router successfully learned to **dynamically avoid a congested network link**, using it less than **0.1%** of the time, compared to the Dumb Router which was stuck in congestion nearly **40%** of the time.
 * **Performance Gains:** By avoiding these bottlenecks, the Cognitive Router achieved **~22% lower average latency** for successful packet deliveries, proving its ability to optimize for overall network health.
-* **Full Analysis:** The complete comparative simulation can be run via the `simulations/run_cognitive_sim.py` script.
+* **Known Trade-off:** In the seeded reference run, the Cognitive Router's exploration behaviour delivers only **~24% of packets** (the Dumb Router delivers 100%); the latency figure above is computed over successful deliveries only. These results demonstrate adaptive behaviour, not production readiness — closing the delivery gap is future work (see issue tracker).
+* **Full Analysis:** The complete comparative simulation can be run via the `simulations/run_cognitive_sim.py` script; `simulations/run_baseline_sim.py` runs the Dijkstra-only baseline. Smoke tests for both live under `simulation/tests/`.
 
 ## Full Project Architecture
 
