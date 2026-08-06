@@ -1,9 +1,9 @@
-# Cognitive Routing Protocol (CRP)
+# Cognitive Routing Protocol (CRP) — Simulation Prototype
 
-[![Project Status: Prototype Complete](https://img.shields.io/badge/status-prototype_complete-brightgreen.svg)](https://github.com/Yudis-bit/Cognitive-Routing-Protocol)
+[![Project Status: Prototype Complete](https://img.shields.io/badge/status-prototype-green.svg)](https://github.com/Yudis-bit/Cognitive-Routing-Protocol)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains the complete architecture and functional prototype for the **Cognitive Routing Protocol (CRP)**, a Layer-0/Layer-1 enhancement protocol designed to fundamentally reshape the efficiency, resilience, and profitability of Decentralized Physical Infrastructure Networks (DePIN).
+A seeded Python simulation exploring adaptive routing with Multi-Armed Bandit reinforcement learning, comparing a cognitive router against a static Dijkstra baseline. Includes a reference Solidity `NodeRegistry` contract for on-chain node registration and staking.
 
 ---
 
@@ -83,7 +83,7 @@ To run this project locally, you'll need to set up both the simulation and contr
 * [x] **Phase 2: "Dumb" Router (Baseline)** - Dijkstra's algorithm implementation for benchmarking.
 * [x] **Phase 3: Cognitive Node (AI Core)** - AI agent implementation with a Multi-Armed Bandit model.
 * [x] **Phase 4: Integration & Comparative Analysis** - Validation of CRP's performance benefits.
-* [x] **Phase 5: On-Chain Component Design (Solidity)** - Smart contract architecture for trust and staking.
+* [x] **Phase 5: On-Chain Component Design (Solidity)** — Reference interface and stub contract implemented; on-chain integration and testing is future work.
 
 ## Contributing
 
